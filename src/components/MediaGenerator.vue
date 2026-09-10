@@ -8,31 +8,16 @@
   const prompt = ref('')
   const loading = ref(false)
 
-  // const imageGenerationEnabled = ref(false)
-  // const imageUploadEnabled = ref(false)
-  // const audioUploadEnabled = ref(false)
-
   const submit = async () => {
     loading.value = true
 
-    // await generateMedia({
-    //   prompt: prompt.value,
-    //   type: tab.value
-    // })
+    /*await generateMedia({
+      prompt: prompt.value,
+      type: tab.value
+    })
 
-    // loading.value = false
+    loading.value = false*/
   }
-
-  // window.parent.postMessage(
-  //   {
-  //     type: 'UPLOAD_COMPLETE',
-  //     payload: {
-  //       id: '123',
-  //       url: 'https://cdn.example.com/file.png'
-  //     }
-  //   },
-  //   '*'
-  // )
 </script>
 
 <template>
